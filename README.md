@@ -211,6 +211,25 @@ When reporting a problem, include:
 
 Community testing and feedback are appreciated.
 
+## ⚠️ Warning
+
+Skyrim Lag Fix modifies the CPU affinity of Skyrim to prioritize Performance Cores (P-Cores).
+
+Depending on your CPU, system configuration, cooling solution, and workload, this may:
+
+- Increase CPU usage on selected cores.
+- Increase CPU temperature and power consumption.
+- Cause additional fan noise.
+- Affect performance or system stability on certain hardware configurations.
+
+**Use this plugin at your own risk.**
+
+Monitor your CPU temperatures and system performance while using this plugin. If you experience excessive temperatures, instability, or unexpected behavior, switch the CPU profile to `Default` or disable the plugin.
+
+This plugin does not modify CPU voltage, clock speeds, or BIOS settings. However, its performance and thermal impact may vary between systems.
+
+The author is not responsible for hardware issues, overheating, system instability, or other damage resulting from the use of this plugin.
+
 ## Disclaimer
 
 Skyrim Lag Fix is an independent community project and is not affiliated with, endorsed by, or sponsored by Bethesda Game Studios or ZeniMax Media.
